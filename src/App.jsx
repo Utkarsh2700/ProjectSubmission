@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Link to={"/search"}>Click here to go first route</Link>
-      <Link to={"/search"}>Click here to go second route</Link>
+      <Link to={"/olpage"}>Click here to go second route</Link>
     </>
   );
 }
