@@ -19,3 +19,8 @@ button {
   stroke: #ff0000 !important;
   stroke-width: 3 !important;
 }
+.map-container {
+  height: calc(100vh - 24px);
+  /* width: 100%;
+  position: relative; */
+}

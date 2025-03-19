@@ -76,6 +76,7 @@ function SearchPage() {
 function SearchBar() {
   const [searchText, setSearchText] = React.useState("");
   const [searchTextDeb, setSearchTextDeb] = React.useState("");
+  // holding the search values for debouncing
   React.useEffect(() => {
     const timer = setTimeout(() => {
       setSearchTextDeb(searchText);
